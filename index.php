@@ -23,17 +23,17 @@ require_once 'lib/Parsedown.php';
     <body>
 	<h1>WEEK OF DECAY</h1>
 
-        <ul style="list-style-type: none; max-width: 400px; margin-left: auto; $
+    <ul style="list-style-type: none; max-width: 400px; margin-left: auto;">
         <?
-	$postings = file_get_contents("https://pod.geraspora.de/people/edd464d0$
+	    $postings = file_get_contents("https://pod.geraspora.de/people/edd464d023bc013370b64860008dbc6c/stream.json");
         $postings = json_decode($postings, true);
         $parsedown = new Parsedown();
         ?>
-	<? foreach ($postings as $posting) : ?>
+        <? foreach ($postings as $posting) : ?>
         <li>
             	<?= $parsedown->text($posting['text']) ?>
         </li>
-	<? endforeach ?>
+	    <? endforeach ?>
         </ul>
     </body>
 </html>
