@@ -7,11 +7,11 @@ require_once 'lib/Parsedown.php';
 	<meta charset='utf-8'>
         <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
         <title>Week of Decay</title>
-        <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='sty$
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:$
+        <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
         <style>
-            body { font-family: 'Open Sans Condensed', sans-serif; background-c$
-            h1 { font-family: 'Montserrat', sans-serif; letter-spacing: 0.7em; $
+            body { font-family: 'Open Sans Condensed', sans-serif; background-color: black; }
+            h1 { font-family: 'Montserrat', sans-serif; letter-spacing: 0.7em; }
             a { color: #999933; text-decoration: none; }
             a:hover { color: #cccc33; }
             ul.events > li {
