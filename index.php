@@ -11,8 +11,8 @@ require_once 'lib/Parsedown.php';
         <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
         <style>
             body { font-family: 'Open Sans Condensed', sans-serif; background-color: black; color: grey; }
-            h1, h2, h3, h4, h5 { font-family: 'Montserrat', sans-serif; letter-spacing: 0.3em; color: yellow; text-align: center; }
-            h1 { font-family: 'Montserrat', sans-serif; letter-spacing: 0.7em; color: yellow; text-align: center; }
+            h1, h2, h3, h4, h5 { font-family: 'Montserrat', sans-serif; letter-spacing: 0.3em; text-align: center; }
+            h1, h2 { letter-spacing: 0.7em; color: yellow; }
             a { color: #999933; text-decoration: none; }
             a:hover { color: #cccc33; }
             ul.events {
