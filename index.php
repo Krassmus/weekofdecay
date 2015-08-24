@@ -45,6 +45,7 @@ require_once 'lib/Parsedown.php';
 	    <? endforeach ?>
         </ul>
         
+        <div style="margin-top: 200px; font-size: 0.6em;">
         <h3>Impressum</h3>
 	<h4>Angaben gemäß § 5 TMG:</h4>
 	<p style="max-width: 400px; margin-left: auto;
@@ -60,6 +61,7 @@ require_once 'lib/Parsedown.php';
 	<tr><td>E-Mail:</td>
 	<td>Krassmus@gmail.com</td>
 	</tr></table>
+	</div>
     </body>
 </html>
 
