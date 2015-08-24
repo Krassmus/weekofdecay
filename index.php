@@ -45,7 +45,7 @@ require_once 'lib/Parsedown.php';
 	    <? endforeach ?>
         </ul>
         
-        <div style="margin-top: 200px; font-size: 0.6em;">
+        <div style="margin-top: 200px; font-size: 0.7em;">
         <h3>Impressum</h3>
 	<h4>Angaben gemäß § 5 TMG:</h4>
 	<p style="max-width: 400px; margin-left: auto;
@@ -54,8 +54,7 @@ require_once 'lib/Parsedown.php';
 	37083 Göttingen
 	</p>
 	<h4>Kontakt:</h4>
-	<table style="max-width: 400px; margin-left: auto;
-                margin-right: auto;"><tr>
+	<table style="max-width: 400px; margin-left: auto; margin-right: auto; width: 100%;"><tr>
 	<td>Telefon:</td>
 	<td>0551-2054225</td></tr>
 	<tr><td>E-Mail:</td>
