@@ -34,7 +34,7 @@ require_once 'lib/Parsedown.php';
 
     <ul class="events">
         <?
-	    $postings = file_get_contents("https://pod.geraspora.de/people/edd464d023bc013370b64860008dbc6c/stream.json");
+	$postings = file_get_contents("https://pod.geraspora.de/people/edd464d023bc013370b64860008dbc6c/stream.json");
         $postings = json_decode($postings, true);
         $parsedown = new Parsedown();
         ?>
@@ -47,12 +47,14 @@ require_once 'lib/Parsedown.php';
         
         <h3>Impressum</h3>
 	<h4>Angaben gemäß § 5 TMG:</h4>
-	<p>Rasmus Fuhse<br />
+	<p style="max-width: 400px; margin-left: auto;
+                margin-right: auto;">Rasmus Fuhse<br />
 	Reinholdstraße 8<br />
 	37083 Göttingen
 	</p>
 	<h4>Kontakt:</h4>
-	<table><tr>
+	<table style="max-width: 400px; margin-left: auto;
+                margin-right: auto;"><tr>
 	<td>Telefon:</td>
 	<td>0551-2054225</td></tr>
 	<tr><td>E-Mail:</td>
