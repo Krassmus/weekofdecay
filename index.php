@@ -11,6 +11,7 @@ require_once 'lib/Parsedown.php';
         <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
         <style>
             body { font-family: 'Open Sans Condensed', sans-serif; background-color: black; color: grey; }
+            h1, h2, h3, h4, h5 { font-family: 'Montserrat', sans-serif; letter-spacing: 0.3em; color: yellow; text-align: center; }
             h1 { font-family: 'Montserrat', sans-serif; letter-spacing: 0.7em; color: yellow; text-align: center; }
             a { color: #999933; text-decoration: none; }
             a:hover { color: #cccc33; }
@@ -43,6 +44,20 @@ require_once 'lib/Parsedown.php';
         </li>
 	    <? endforeach ?>
         </ul>
+        
+        <h3>Impressum</h3>
+	<h4>Angaben gemäß § 5 TMG:</h4>
+	<p>Rasmus Fuhse<br />
+	Reinholdstraße 8<br />
+	37083 Göttingen
+	</p>
+	<h4>Kontakt:</h4>
+	<table><tr>
+	<td>Telefon:</td>
+	<td>0551-2054225</td></tr>
+	<tr><td>E-Mail:</td>
+	<td>Krassmus@gmail.com</td>
+	</tr></table>
     </body>
 </html>
 
