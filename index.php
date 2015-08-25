@@ -61,6 +61,7 @@ require_once 'lib/Parsedown.php';
         		<a href="<?= htmlentities($posting['photos'][0]['sizes']['large']) ?>" target="_blank">
         			<img src="<?= htmlentities($posting['photos'][0]['sizes']['large']) ?>" style="display: block; width: 100%;">
 			</a>
+			<? array_shift($posting['photos']) ?>
         		<? foreach ($posting['photos'] as $photo) : ?>
         			<a href="<?= htmlentities($photo['sizes']['large']) ?>" target="_blank">
         				<img src="<?= htmlentities($photo['sizes']['small']) ?>">
