@@ -33,10 +33,10 @@ require_once 'lib/Parsedown.php';
 	<h1>WEEK OF DECA<span style="letter-spacing: 0em;">Y</span></h1>
 
     <div style="text-align: center;">
-        <a href="http://jamendo.de">
+        <a href="https://www.jamendo.com/de/artist/366897/week-of-decay" title="Zum Abspielen und Herunterladen">
             <img src="assets/play.svg" width="30px" height="30px">
         </a>
-        <a href="http://vimeo.de">
+        <a href="https://vimeo.com/channels/280298" title="Zum Angucken und Ausmachen">
             <img src="assets/film.svg" width="30px" height="30px">
         </a>
     </div>
