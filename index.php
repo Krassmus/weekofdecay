@@ -56,6 +56,18 @@ require_once 'lib/Parsedown.php';
         ?>
         <? foreach ($postings as $posting) : ?>
         <li>
+        	<? if (count($posting['photos'])) : ?>
+        	<div class="gallery">
+        		<a href="<?= htmlentities($posting['photos'][0]['sizes']['large']) ?>" target="_blank">
+        			<img src="<?= htmlentities($posting['photos'][0]['sizes']['large']) ?>" style="display: block; width: 100%;">
+			</a>
+        		<? foreach ($posting['photos'] as $photo) : ?>
+        			<a href="<?= htmlentities($photo['sizes']['large']) ?>" target="_blank">
+        				<img src="<?= htmlentities($photo['sizes']['small']) ?>">
+				</a>
+        		<? endforeach ?>
+        	</div>
+        	<? endif ?>
             	<?= $parsedown->text($posting['text']) ?>
         </li>
 	    <? endforeach ?>
