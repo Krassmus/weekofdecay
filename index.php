@@ -30,7 +30,7 @@ require_once 'lib/Parsedown.php';
 	</style>
     </head>
     <body>
-	<h1>WEEK OF DECAY</h1>
+	<h1>WEEK OF DECA<span style="letter-spacing: 0em;">Y</span></h1>
 
     <ul class="events">
         <?
