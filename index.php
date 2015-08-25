@@ -32,6 +32,15 @@ require_once 'lib/Parsedown.php';
     <body>
 	<h1>WEEK OF DECA<span style="letter-spacing: 0em;">Y</span></h1>
 
+    <div style="text-align: center;">
+        <a href="http://jamendo.de">
+            <img src="assets/play.svg" width="30px" height="30px">
+        </a>
+        <a href="http://vimeo.de">
+            <img src="assets/film.svg" width="30px" height="30px">
+        </a>
+    </div>
+
     <ul class="events">
         <?
 	$postings = file_get_contents("https://pod.geraspora.de/people/edd464d023bc013370b64860008dbc6c/stream.json");
