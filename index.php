@@ -34,6 +34,9 @@ require_once 'lib/Parsedown.php';
             	display: inline-block;
             	margin: 20px;
             }
+            .gallery {
+            	margin-top: 7px;
+            }
 	</style>
     </head>
     <body>
