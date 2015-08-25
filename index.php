@@ -44,7 +44,7 @@ require_once 'lib/Parsedown.php';
             <img src="assets/play.svg" width="50px">
         </a>
         <a href="https://vimeo.com/channels/280298" title="Zum Angucken und Ausmachen">
-            <img src="assets/film.svg" width="50px">
+            <img src="assets/tv.svg" width="50px">
         </a>
     </div>
 
