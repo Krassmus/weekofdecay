@@ -21,23 +21,30 @@ require_once 'lib/Parsedown.php';
                 margin-left: auto;
                 margin-right: auto;
                 padding: 0px;
-                margin-top: 100px;
+                margin-top: 35px;
             }
             ul.events > li {
                 border-bottom: thin solid lightgrey;
                 border-top: thin solid lightgrey;
+            }
+            .iconlinks {
+            	text-align: center;
+            }
+            .iconlinks > a {
+            	display: inline-block;
+            	margin: 20px;
             }
 	</style>
     </head>
     <body>
 	<h1>WEEK OF DECA<span style="letter-spacing: 0em;">Y</span></h1>
 
-    <div style="text-align: center;">
+    <div class="iconlinks">
         <a href="https://www.jamendo.com/de/artist/366897/week-of-decay" title="Zum Abspielen und Herunterladen">
-            <img src="assets/play.svg" width="30px" height="30px">
+            <img src="assets/play.svg" width="50px">
         </a>
         <a href="https://vimeo.com/channels/280298" title="Zum Angucken und Ausmachen">
-            <img src="assets/film.svg" width="30px" height="30px">
+            <img src="assets/film.svg" width="50px">
         </a>
     </div>
 
