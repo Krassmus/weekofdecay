@@ -35,7 +35,11 @@ require_once 'lib/Parsedown.php';
             	margin: 20px;
             }
             .gallery {
-            	margin-top: 7px;
+            	margin-top: 16px;
+            }
+            p {
+            	margin-top: 16px;
+            	margin-bottom: 16px;
             }
 	</style>
     </head>
